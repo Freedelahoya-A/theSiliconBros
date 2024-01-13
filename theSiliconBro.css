@@ -1,0 +1,99 @@
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url("images/hexa_dan_wave_10.jpg");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    color: #fff; /* Set the default text color to white for better contrast on dark background */
+}
+
+/* Style the header */
+header {
+    background-color: #333; /* Dark background color for the header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the main content container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background for better readability */
+    border-radius: 8px; /* Add a slight border radius to the content container */
+}
+
+/* Style the image */
+.ima img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #555; /* Darker border for better visibility on dark background */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #555; /* Darker border for better visibility on dark background */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the button */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Style the aside */
+aside {
+    background-color: #555; /* Darker background for the aside */
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Apply animation to the image */
+.silicon {
+    animation: pulse 2s infinite;
+    border-radius: 26px;
+
+}
+.school
+{
+    border-radius: 30px;
+    border:2px 2px white;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
