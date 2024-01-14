@@ -7,8 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    background-image:url("images/hexa_dan_wave_10.jpg");
     color: #333;
 }
 
@@ -21,7 +20,8 @@ header {
 }
 
 .silicon {
-    border-radius: 50%;
+    border-radius: 26px;
+    box-shadow: 10px 10px black ;
     border: 2px solid #fff;
     animation: fadeIn 1s ease-out;
 }
